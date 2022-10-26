@@ -1,0 +1,286 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contenedor{
+  padding: 60px;
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+}
+.titulo{
+  text-align: center; 
+  font-size: 50px; 
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
+header {
+  width: 100%;
+  height: 600px;
+  background: #bc4e9c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+      to right,
+      hsla(340, 95%, 50%, 0.3),
+      hsla(317, 45%, 52%, 0.51)
+    ),
+    url(../imagenes/4.webp); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+      to right,
+      hsla(340, 95%, 50%, 0.3),
+      hsla(317, 45%, 52%, 0.51)
+    ),
+    url(../imagenes/4.webp); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+nav{
+  text-align:center ;
+  padding: 30px 0 0 0;
+}
+nav>a{
+  color: #fff;
+  font-weight: 300;
+  text-decoration: none;
+  margin-right: 40px;
+  font-size: 20px;
+}
+nav>a:hover{
+  text-decoration: underline;
+}
+header .textos-inicio{
+  display: flex;
+  height: 430px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.textos-inicio h1{
+  font-size: 50px;
+  color: #fff;
+}
+.textos-inicio h2{
+  font-size: 30px;
+  color: #fff;
+}
+.wave{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.pie-pagina{
+  text-align: center;
+  font-size: 15px;
+}
+
+
+/* tiktok */
+header.header-tiktok{
+  width: 100%;
+  height: 600px;
+  background: #bc4e9c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+      to right,
+      hsla(340, 95%, 50%, 0.3),
+      hsla(317, 45%, 52%, 0.51)
+    ),
+    url(../imagenes/tiktok-fondo4.jpg); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+      to right,
+      hsla(340, 95%, 50%, 0.3),
+      hsla(317, 45%, 52%, 0.51)
+    ),
+    url(../imagenes/tiktok-fondo4.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size:cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+header .textos-tiktok{
+  display: flex;
+  height: 430px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.textos-tiktok h1{
+  font-size: 50px;
+  color: rgb(0, 0, 0);
+}
+
+.contenedor-sobre-tiktok{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.tiktok{
+  width: 48%;
+}
+
+.tiktok-texto{
+  width: 48%; 
+  font-size: 30px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: justify;
+  margin-top: 30px;
+}
+
+.tiktok-titulo{
+  text-align: center; 
+  font-size: 50px; 
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
+/* youtube */
+.header-youtube{
+  width: 100%;
+  height: 600px;
+  background: #bc4e9c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+      to right,
+      hsla(340, 95%, 50%, 0.3),
+      hsla(317, 45%, 52%, 0.51)
+    ),
+    url(../imagenes/YoutubePortada.jfif); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+      to right,
+      hsla(340, 95%, 50%, 0.3),
+      hsla(317, 45%, 52%, 0.51)
+    ),
+    url(../imagenes/YoutubePortada.jfif); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: 100% 600px;
+    background-attachment: fixed;
+    position: relative;
+}
+.contenedor-sobre-youtube{
+  display: flex;
+  justify-content: space-evenly;
+}
+.youtube{
+  width: 48%;
+}
+.youtube-texto{
+  width: 48%;
+  font-size: 30px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: justify;
+}
+.youtube-titulo{
+  text-align: center; 
+  font-size: 50px; 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* whatsapp */
+header.header-whatsapp{
+  width: 100%;
+  height: 600px;
+  background: #bc4e9c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+      to right,
+      hsla(340, 95%, 50%, 0.3),
+      hsla(317, 45%, 52%, 0.51)
+    ),
+    url(../imagenes/3.png); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+      to right,
+      hsla(340, 95%, 50%, 0.3),
+      hsla(317, 45%, 52%, 0.51)
+    ),
+    url(../imagenes/3.png); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size:cover;
+    background-attachment: fixed;
+    position: relative;
+}
+header .textos-whatsapp{
+  display: flex;
+  height: 430px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.contenedor-sobre-whatsapp{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.whatsapp{
+  width: 48%;
+}
+
+.whatsapp-texto{
+  width: 48%;
+  font-size: 30px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: justify;
+}
+
+.whatsapp-titulo{
+  text-align: center; 
+  font-size: 50px; 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* pagina de youtube */
+.contenedor-de-yotube{
+  display: flex;
+  justify-content: space-evenly;
+}
+.pasos-imagenes{
+  width: 48%;
+}
+.texto-de-youtube{
+  width: 48%;
+  font-size: 30px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: justify;
+}
+/*página de quienes somos*/
+header.header-quienessomos{
+  width: 100%;
+  height: 600px;
+  background: #bc4e9c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+      to right,
+      hsla(340, 95%, 50%, 0.3),
+      hsla(317, 45%, 52%, 0.51)
+    ),
+    url(../imagenes/Equipo.jpg); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+      to right,
+      hsla(340, 95%, 50%, 0.3),
+      hsla(317, 45%, 52%, 0.51)
+    ),
+    url(../imagenes/Equipo.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size:cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.contenedor-sobre-quienessomos{
+  display: flex;
+  justify-content: space-evenly;  
+}
+.quienessomos{
+  width: 48%;
+}
+.quienessomos-texto{
+  width: 48%; 
+  font-size: 30px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: justify;
+  margin-top: 30px;
+}
+.quienessomos-titulo{
+  text-align: center; 
+  font-size: 50px; 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
