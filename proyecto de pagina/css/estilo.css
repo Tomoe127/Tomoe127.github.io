@@ -1,0 +1,417 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* .contenedor{
+  padding: 60px;
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+} */
+
+.titulo{
+  text-align: center; 
+  font-size: 50px; 
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  margin: 60px;
+}
+
+.principal {
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  animation: slide 16s infinite;
+}
+
+@keyframes slide{
+  0%{
+    background-image: url(https://www.muycomputer.com/wp-content/uploads/2021/09/TikTok.png);
+  }
+  25%{
+    background-image: url(https://www.muycomputer.com/wp-content/uploads/2021/09/TikTok.png);
+  }
+  25.01%{
+    background-image: url(https://tec.com.pe/wp-content/uploads/2022/02/Twitter-1-1000x600-1.jpg);
+  }
+  50%{
+    background-image: url(https://tec.com.pe/wp-content/uploads/2022/02/Twitter-1-1000x600-1.jpg);
+  }
+  50.01%{
+    background-image: url(http://c.files.bbci.co.uk/12004/production/_110623737_gettyimages-1194141068.jpg);
+  }
+  75%{
+    background-image: url(http://c.files.bbci.co.uk/12004/production/_110623737_gettyimages-1194141068.jpg);
+  }
+  75.01%{
+    background-image: url(https://www.grupohemisferios.com/wp-content/uploads/2020/09/Fondo-Redes-Sociales-Grupo-Hemisferios-v2.jpg);
+  }
+  100%{
+    background-image: url(https://www.grupohemisferios.com/wp-content/uploads/2020/09/Fondo-Redes-Sociales-Grupo-Hemisferios-v2.jpg);
+  }
+}
+
+nav{
+  text-align:center ;
+  padding: 30px 0 0 0;
+}
+
+nav a{
+  color: rgb(255, 255, 255);
+  font-weight: 300;
+  text-decoration: none;
+  margin-right: 40px;
+  font-size: 25px;
+}
+
+nav a:hover{
+  text-decoration: underline;
+}
+
+.animacion:hover{
+  color: rgb(38, 221, 228);
+  font-size: 40px;
+}
+
+.animacion{
+font-size: 30x;
+-moz-transition: font-size 500ms linear 0s;
+-webkit-transition: font-size 500ms linear 0s;
+transition: font-size 500ms linear 0s;
+}
+
+.textos-inicio{
+  display: flex;
+  height: 430px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.textos-inicio h1{
+  font-size: 70px;
+  color: #ffff;
+}
+
+.textos-inicio h2{
+  font-size: 50px;
+  color: #ffff;
+}
+
+.wave{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.ejemplo{
+text-align: center;
+}
+
+.tiktok-titulo{
+  text-align: center; 
+  font-size: 50px; 
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  /* margin: 30px; */
+}
+
+.youtube-titulo{
+  text-align: center; 
+  font-size: 50px; 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.whatsapp-titulo{
+  text-align: center; 
+  font-size: 50px; 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* tiktok */
+.principal-tiktok{
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  animation: slide4 16s infinite;
+}
+
+@keyframes slide4{
+  0%{
+    background-image: url(https://www.cronista.com/files/image/426/426270/61f4be7ecdab3.jpg);
+  }
+  25%{
+    background-image: url(https://www.cronista.com/files/image/426/426270/61f4be7ecdab3.jpg);
+  }
+  25.01%{
+    background-image: url(https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2022/08/logo-tiktok-2792771.jpg);
+  }
+  50%{
+    background-image: url(https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2022/08/logo-tiktok-2792771.jpg);
+  }
+  50.01%{
+    background-image: url(https://s.abcnews.com/images/Technology/tiktok-logo-gty-jt-221101_1667324191513_hpMain_16x9_1600.jpg);
+  }
+  75%{
+    background-image: url(https://s.abcnews.com/images/Technology/tiktok-logo-gty-jt-221101_1667324191513_hpMain_16x9_1600.jpg);
+  }
+  75.01%{
+    background-image: url(https://cdn.forbes.pe/2022/09/Tiktok-reuters1280x720.jpg);
+  }
+  100%{
+    background-image: url(https://cdn.forbes.pe/2022/09/Tiktok-reuters1280x720.jpg);
+  }
+}
+
+/* .textos-tiktok{
+  display: flex;
+  height: 430px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+} */
+
+/* .textos-tiktok h1{
+  font-size: 50px;
+  color: rgb(0, 0, 0);
+} */
+
+.contenedor-sobre-tiktok{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 0 80px 0;
+}
+
+.tiktok{
+  width: 48%;
+  border: 1px solid red;
+}
+
+.tiktok-texto{
+  width: 48%; 
+  font-size: 30px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: justify;
+  /* margin-top: 30px; */
+}
+
+/* youtube */
+.principal-youtube {
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  animation: slide2 16s infinite;
+}
+
+@keyframes slide2{
+  0%{
+    background-image: url(https://elchapuzasinformatico.com/wp-content/uploads/2020/01/YouTube.jpg);
+  }
+  25%{
+    background-image: url(https://elchapuzasinformatico.com/wp-content/uploads/2020/01/YouTube.jpg);
+  }
+  25.01%{
+    background-image: url(https://images.alphacoders.com/109/1094158.jpg);
+  }
+  50%{
+    background-image: url(https://images.alphacoders.com/109/1094158.jpg);
+  }
+  50.01%{
+    background-image: url(https://cdn.searchenginejournal.com/wp-content/uploads/2014/11/youtube-change-url-6009ea4f8d221-1280x720.png);
+  }
+  75%{
+    background-image: url(https://cdn.searchenginejournal.com/wp-content/uploads/2014/11/youtube-change-url-6009ea4f8d221-1280x720.png);
+  }
+  75.01%{
+    background-image: url(https://portalvarada.com/wp-content/uploads/2022/06/comentarios-do-youtube-nao-aparecem-no-site-e-aplicativo-entenda.jpeg);
+  }
+  100%{
+    background-image: url(https://portalvarada.com/wp-content/uploads/2022/06/comentarios-do-youtube-nao-aparecem-no-site-e-aplicativo-entenda.jpeg);
+  }
+}
+
+.contenedor-sobre-youtube{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 0 80px 0;
+}
+
+.youtube{
+  width: 48%;
+}
+
+.youtube-texto{
+  width: 48%;
+  font-size: 30px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: justify;
+}
+
+/* whatsapp */
+.principal-whatsapp {
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  animation: slide3 16s infinite;
+}
+
+@keyframes slide3{
+  0%{
+    background-image: url(https://static.toiimg.com/photo/msid-92332366/92332366.jpg);
+  }
+  25%{
+    background-image: url(https://static.toiimg.com/photo/msid-92332366/92332366.jpg);
+  }
+  25.01%{
+    background-image: url(https://static.dw.com/image/56244146_101.jpg);
+  }
+  50%{
+    background-image: url(https://static.dw.com/image/56244146_101.jpg);
+  }
+  50.01%{
+    background-image: url(https://phantom-marca.unidadeditorial.es/49c6e327aebf465d3db97920bcc56399/resize/1320/f/jpg/assets/multimedia/imagenes/2021/07/21/16268886503417.jpg);
+  }
+  75%{
+    background-image: url(https://phantom-marca.unidadeditorial.es/49c6e327aebf465d3db97920bcc56399/resize/1320/f/jpg/assets/multimedia/imagenes/2021/07/21/16268886503417.jpg);
+  }
+  75.01%{
+    background-image: url(http://c.files.bbci.co.uk/9C9C/production/_102629004_gettyimages-1001511166.jpg);
+  }
+  100%{
+    background-image: url(http://c.files.bbci.co.uk/9C9C/production/_102629004_gettyimages-1001511166.jpg);
+  }
+}
+
+.textos-whatsapp{
+  display: flex;
+  height: 430px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.contenedor-sobre-whatsapp{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 0 80px 0;
+}
+
+.whatsapp{
+  width: 48%;
+}
+
+.whatsapp-texto{
+  width: 48%;
+  font-size: 30px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: justify;
+}
+
+/* pagina de youtube */
+/* .contenedor-de-yotube{
+  display: flex;
+  justify-content: space-evenly;
+}
+.pasos-imagenes{
+  width: 48%;
+}
+.texto-de-youtube{
+  width: 48%;
+  font-size: 30px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: justify;
+} */
+/*página de quienes somos*/
+.principal-nosotros{
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  animation: slide5 16s infinite;
+}
+
+@keyframes slide5{
+  0%{
+    background-image: url(https://www.beglobalbusiness.com/wp-content/uploads/2018/05/Quienes-somos.jpg);
+  }
+  25%{
+    background-image: url(https://www.beglobalbusiness.com/wp-content/uploads/2018/05/Quienes-somos.jpg);
+  }
+  25.01%{
+    background-image: url(https://coworkingfy.com/wp-content/uploads/2019/11/trabajo-en-equipo-grupo-figurativo-de-equipo-de-trabajo.jpg);
+  }
+  50%{
+    background-image: url(https://coworkingfy.com/wp-content/uploads/2019/11/trabajo-en-equipo-grupo-figurativo-de-equipo-de-trabajo.jpg);
+  }
+  50.01%{
+    background-image: url(https://cdn.bizneo.com/blog/wp-content/uploads/2019/10/din%C3%A1micas-de-trabajo-en-equipo.jpeg);
+  }
+  75%{
+    background-image: url(https://cdn.bizneo.com/blog/wp-content/uploads/2019/10/din%C3%A1micas-de-trabajo-en-equipo.jpeg);
+  }
+  75.01%{
+    background-image: url(https://t2.pb.ltmcdn.com/es/posts/0/1/2/trabajo_en_equipo_que_es_importancia_caracteristicas_y_ventajas_5210_orig.jpg);
+  }
+  100%{
+    background-image: url(https://t2.pb.ltmcdn.com/es/posts/0/1/2/trabajo_en_equipo_que_es_importancia_caracteristicas_y_ventajas_5210_orig.jpg);
+  }
+}
+
+.contenedor-sobre-quienessomos{
+  display: flex;
+  justify-content: space-evenly;  
+}
+
+.quienessomos{
+  width: 600px;
+  height: 700px;
+}
+
+.quienessomos-texto{
+  width: 48%; 
+  font-size: 30px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: justify;
+  margin-top: 30px;
+}
+
+footer{
+  background-image: url(https://i.pinimg.com/originals/ed/ae/ef/edaeefedecb6565a950b853780f4946b.jpg);
+  padding: 25px;
+  margin: 21px 0 0 ;
+}
+footer p{
+  text-align: center;
+  font-size: 30px;
+  color: #ffff;
+}
+
+.personal{
+  display: flex;
+}
+
+.foto{
+  width: 320px;
+  height: 280px;
+  margin: 40px 0 20px 0;
+}
+
+.personal p{
+  font-size: 25px;
+  margin: 0 20px 10px 0;
+}
