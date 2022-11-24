@@ -415,3 +415,26 @@ footer p{
   font-size: 25px;
   margin: 0 20px 10px 0;
 }
+
+aside{
+  margin-top: 45px;
+}
+
+aside p{
+  margin-top: 40px;
+  font-size: 20px;
+}
+aside input{
+  width: 100%;
+}
+
+aside textarea{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.reproductor{
+  margin-bottom: 50px;
+  position: relative;
+  left: 1200px;
+}
