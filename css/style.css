@@ -72,7 +72,7 @@ body{
   width: 25px;
 }
 
-.menu label{
+.menu .lineas{
   cursor: pointer;
   display: none;
 }
@@ -296,7 +296,7 @@ hr{
   .menu{
     padding: 20px;
   }
-  .menu label{
+  .menu .lineas{
     display: initial;
   }
   .menu .navbar{
@@ -315,6 +315,11 @@ hr{
   }
   .logo{
     display: none;
+  }
+  .wrap-toggle{
+    margin-left: 14px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
   }
 
   /* .header{
@@ -351,4 +356,47 @@ hr{
     flex-direction: column;
     text-align: center;
   }
+}
+
+/* -------------------------------TOGGLE---------------------------------- */
+.wrap-toggle{
+  padding-top: 19px;
+  padding-left: 10px;
+}
+
+.switch{
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 23px;
+  background-color: white;
+  border-radius: 40px;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.switch::after{
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 14px;
+  border-radius: 30px;
+  background-color: gray;
+  left: 5px;
+  top: 5px;
+  transition: all 0.4s;
+}
+
+input[type='checkbox']:checked + .switch::after{
+  transform: translateX(25px);
+  background-color:beige ;
+}
+
+input[type='checkbox']:checked + .switch{
+  background-color: black;
+}
+
+.offscreen{
+  position: absolute;
+  left: -99999px;
 }
