@@ -10,8 +10,6 @@ body{
   background-color: aquamarine;
 }
 
-
-
 .container{
   max-width: 1200px;
   margin: 0 auto;
@@ -291,6 +289,8 @@ hr{
   color: #f35200;
 }
 
+/* -----------------------------------------Responsive---------------------------------------- */
+
 @media(max-width:991px){
 
   .menu{
@@ -399,4 +399,26 @@ input[type='checkbox']:checked + .switch{
 .offscreen{
   position: absolute;
   left: -99999px;
+}
+
+/* ---------------------------------------Dark---------------------------------- */
+
+.dark{
+  background-color: black;
+}
+
+.dark .header{
+  background-color: grey;
+}
+
+.dark .barra{
+  background: gray;
+}
+
+.dark .services{
+  background-color: gray;
+}
+
+.dark .service{
+  background-color: gray;
 }
