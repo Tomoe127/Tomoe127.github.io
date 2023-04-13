@@ -139,17 +139,16 @@ th,td{
   font-size: 16px;
 }
 
-.portada{
+#portada{
   background-image: linear-gradient(
     rgba(0,0,0,0.2),
     rgba(0,0,0,0.2)),
-    url(../imagenes/2x1_NSwitch_TloZTearsOfTheKingdom_Gamepage.jpg);
-    min-height: 70vh;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* display: flex; */
-    /* align-items: center; */
+    url(../imagenes/portada1.jpg);
+  min-height: 78vh;
+  /* height: calc(100vh - 150px); */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .barra {
@@ -322,12 +321,8 @@ hr{
     padding-bottom: 10px;
   }
 
-  /* .header{
-    min-height: 0vh;
-  } */
-
-  .portada{
-    min-height: 70vh;
+  #portada{
+    min-height: 78vh;
   }
   .header-content{
     padding: 100px 30px;
